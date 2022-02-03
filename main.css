@@ -1,0 +1,19 @@
+a:visited{
+    color:rgb(199, 64, 30);
+}
+ol{
+    border:1px solid blue;
+    width:700px;
+    height:500px;
+    margin-left: 300px;
+    background-color:rgb(247, 241, 242);
+    padding-top:60px;
+    padding-left:50px;
+}
+h2{
+    text-align: center;
+    color:white;
+}
+body{
+    background-color: rgb(12, 20, 1);
+}

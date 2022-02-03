@@ -1,0 +1,29 @@
+form{
+    width:500px;
+    height:560px;
+    border:1px solid blue;
+    padding-left:15px;
+    padding-top:12px;
+    border-radius: 15px;
+    margin-left:420px;
+}
+input[type=submit]{
+    margin-left: 200px;
+}
+label{
+    font-weight: bold;
+}
+label[for="Male"],label[for="Female"],label[for="others"]{
+    font-weight: normal;
+    margin-left:10px;
+}
+input{
+    margin-left:10px;
+}
+h2{
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to right top, #101cee, #a900b8, #cf0085, #d8005f, #d04949);
+
+}

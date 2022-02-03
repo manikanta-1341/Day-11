@@ -1,0 +1,27 @@
+table,th,td{
+    border:1.1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: normal;
+}
+th,td{
+    width:180px;
+    height:40px;
+}
+.table{
+    margin:225px 0px 0px 335px;
+    border: 1px solid #0e0e0e;
+    border-width:1px;
+    width:623px;
+    height:295px;
+    padding:10px 10px 0px 10px;
+    background-color:white;
+}
+h2{
+    text-align: center;
+    margin-top:15px;
+    font-weight: normal;
+}
+body{
+    background-color:black
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="3.css"/>
+    <h1>Contact Us</h1>
+</head>
+<body>
+    
+    <div id="form">
+    <form action="#" target="_blank" method="get">
+      Name :  <input type="text" name="name" id="name" placeholder="john doe" required="required"/> <br>
+      <br>
+      Email : <input type="email" name="email" id="email" placeholder="johndoe@gmail.com" required="required"/> <br>
+      <br>
+      Category : <select name="category id="category required="required"/> <br>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+    </select></br>
+
+      <br>
+
+      <label for="Query Details :">Query Details : </label></br>
+      <br>
+      <textarea id="query" name="query" rows="10" cols="50"  placeholder="Describe Your Query..." minlength ="4"  required="required"> </textarea> <br>
+      <br>
+       <label for="Your available Time">Your available Time :( Ours : 9:00 AM - 9:00 PM ) :</label>
+        <input type="time" id="time" name="time" min="9:00" max="19:00" value="09:00"  required="required"/> <br>
+        <br>
+        <input type="submit" id="submit" name="submit">
+    </form>
+    </div>
+</body>
+</html>

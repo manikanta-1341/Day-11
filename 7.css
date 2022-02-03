@@ -1,0 +1,63 @@
+body{
+background-color: black;
+}
+.form input[type=text]{
+    width:160px;
+    margin-right:9px;
+    border:none;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    padding-top:5px;
+    
+}
+.form #address{
+    width:320px;
+    font-size: 14px;
+}
+.form .name{
+    font-size:13px;
+}
+.form .address{
+    font-size:13px;
+}
+.csz input[type=text] {
+    margin-right:15px;
+    border:none;
+    border-bottom: 1px solid black;
+    width:90px;
+    font-size: 14px;
+}
+.csz .address{
+    font-size:14px;
+    padding-top:5px;
+}
+.sub label[for="info"],label[for="subscribe"],label[for="1year"],label[for="2year"], label[for="computer"], label[for="fishing"], label[for="cat"]{
+    font-size:14px;
+}
+label[for="computer"], label[for="fishing"], label[for="cat"]
+{
+    margin-left:5px;
+}
+
+/*  box creation */
+
+h4{
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-size: 20.5px;
+    background-color:red;
+    color:white;
+    display:inline-flex;
+    width:350px;
+    
+}
+.container{
+    border: 10px double black;
+    width:360px;
+    height:240px;
+    margin:15% 0% 0% 35%;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    background-color:white;
+}
+

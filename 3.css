@@ -1,0 +1,56 @@
+body{
+    background-color: whitesmoke;
+}
+h1{
+    background-color: aqua;
+    padding:20px 0px 20px 0px;
+    margin:0px;
+    text-align: left;
+    font-size: 54px;
+    font-family:'Times New Roman', Times, serif;
+}
+#form{
+    width: 500px;
+    border:1px solid;
+    padding:20px 50px 10px 50px;
+    margin: 100px 350px;
+}
+input[type=text]{
+    border: 1.5px double grey transparent;
+    border-radius:5px ;
+    height: 25px;
+    width: 175px;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+input[type=email]{
+    border: 1.5px double rgba(214, 198, 198, 0.39) transparent;
+    border-radius:5px ;
+    height: 25px;
+    width: 175px;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+select{
+    border: 1.5px double grey transparent;
+    border-radius:10px ;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+textarea{
+    border: 1.5px double grey transparent;
+    border-radius:15px ;
+    padding-Top:10px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-Size:18px;
+}
+input[type="time"]{
+    width: 150px;
+    height: 25px;
+    font-Size:16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type="submit"]{
+    margin-left: 200px;
+    font-Size:20px;
+}
